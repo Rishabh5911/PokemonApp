@@ -1,9 +1,6 @@
 import React from "react";
 
-import { useNavigate } from "react-router-dom";
-
 const SearchBar = ({ searchQuery, setSearchQuery }) => {
-  const navigate = useNavigate();
 
   const handleSearch = (e) => {
     setSearchQuery(e.target.value); 
