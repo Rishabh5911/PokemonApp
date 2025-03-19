@@ -1,12 +1,16 @@
-# React + Vite
+Pokémon Cards App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Pokémon search and display app with pagination, built using React & Tailwind CSS. This app fetches Pokémon data from the PokéAPI and displays Pokémon cards with images and names. Users can search for a Pokémon and navigate through different pages using pagination.
 
-Currently, two official plugins are available:
+Features :
+1.Fetches Pokémon data dynamically using PokéAPI.
+2.Displays Pokémon images & names in attractive cards.
+3.Search functionality to filter Pokémon by name.
+4.Responsive UI using Tailwind CSS.
+5.Smooth hover effects on cards.
+6.Pagination support for browsing multiple Pokémon pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tech Stack :
+1.React.js (for UI & state management)
+2.Tailwind CSS (for styling)
+3.Fetch API (for data fetching)
